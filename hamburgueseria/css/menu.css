@@ -1,0 +1,16 @@
+
+:root{
+
+    --fuenteprincipal: 'Montserrat', sans-serif;
+    --fuentetitulos: 'Handlee', cursive;
+    --colorPrincipal: #fa573a;
+    --colorSecundario: #21242e;
+    --fontSize: 1rem;
+    --anchoMaximo: 1100px;
+    --marginGrid: 1rem;
+}
+
+
+main {
+    background-color:var(--colorSecundario) ;
+}
