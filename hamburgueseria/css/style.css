@@ -416,9 +416,10 @@ main #todaysmenu article{
     font-weight: 700;
     font-size: 110%;
     margin: 0.625rem 0;
+    color: white;
 }
 
-#todaysmenu p{
+#todaysmenu p {
     color: #666;
     line-height: 1.25;
     margin-bottom: 0.625em;
@@ -428,18 +429,19 @@ main #todaysmenu article{
     flex-direction: row;
     justify-content:space-around;
     gap: 100px;
-   
-
 }
 .flex1{
     
     padding-top: 40px;
-    width: 25%
+    width: 25%;
+    margin-top: 20px;
     
 }
 .flex2{
     padding: 40px;
     width: 75%;
+    
+    
     
 }
 #todaysmenu p {
@@ -472,7 +474,22 @@ main #todaysmenu article{
     background-color: var(--colorPrincipal);
 }
 
+.menu article {
+    display: flex;
+    flex-direction: row;
+    
+}
+.menu img {
+   max-height: 100px;
+   padding-right: 20px;
+   padding-bottom: 0px;
+   margin-top: 10px;
+}
+.menu div {
+    padding-top: 0px;
+}
 
+/* fin menu */
 
 
 
@@ -518,13 +535,25 @@ main #todaysmenu article{
 
     .flex {
         flex-direction: column;
+        gap: 0px;
     }
     .flex1 {
         width: 100%;
-        padding: 20px;
-        
+        padding: 20px;      
     }
+    .menu article {
+        flex-direction: column;
+    }
+    .flex2 {
+       width: 100%;
+       
+     }
     
+    .menu img {
+        max-height: 300px;
+        margin-bottom: 20px;
+    }
+  
 }
 
 @media(min-width: 48rem){
